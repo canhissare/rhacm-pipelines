@@ -15,4 +15,4 @@ spec:
       operator: In
       values:
       - nonprod
-      - prod
+      - prd
