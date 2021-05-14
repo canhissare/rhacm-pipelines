@@ -11,7 +11,7 @@ spec:
     - name: deployment-name
       value: teste-1
     - name: git-url
-      value: 'https://github.com/giofontana/rhacm-pipelines.git'
+      value: 'https://github.com/canhissare/rhacm-pipelines.git'
     - name: git-revision
       value: master
   pipelineRef:

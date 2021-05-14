@@ -11,4 +11,4 @@ spec:
       status: "True"
   clusterSelector:
     matchLabels:
-      environment: prd
+      environment: nonprod

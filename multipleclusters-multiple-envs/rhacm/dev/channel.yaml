@@ -7,4 +7,4 @@ metadata:
   namespace: etherpad-acm-dev
 spec:
   type: GitHub
-  pathname: https://github.com/giofontana/rhacm-pipelines.git
+  pathname: https://github.com/canhissare/rhacm-pipelines.git
