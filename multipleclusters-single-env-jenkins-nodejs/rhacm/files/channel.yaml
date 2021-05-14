@@ -1,0 +1,10 @@
+
+---
+apiVersion: apps.open-cluster-management.io/v1
+kind: Channel
+metadata:
+  name: nodejs-app-latest
+  namespace: nodejs-acm
+spec:
+  type: GitHub
+  pathname: https://github.com/canhissare/rhacm-pipelines.git

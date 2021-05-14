@@ -1,0 +1,18 @@
+
+---
+apiVersion: apps.open-cluster-management.io/v1
+kind: Subscription
+metadata:
+  name: nodejs-acm
+  namespace: nodejs-acm
+  labels:
+    app: nodejs-acm
+  annotations:
+    apps.open-cluster-management.io/github-path: app-resources/nodejs
+spec:
+  channel: nodejs-acm/nodejs-app-latest
+  placement:
+    placementRef:
+      kind: PlacementRule
+      name: dev-and-prd-cluster
+

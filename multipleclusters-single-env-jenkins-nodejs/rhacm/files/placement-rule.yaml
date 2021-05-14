@@ -1,0 +1,18 @@
+
+---
+apiVersion: apps.open-cluster-management.io/v1
+kind: PlacementRule
+metadata:
+  name: dev-and-prd-cluster
+  namespace: nodejs-acm
+spec:
+  clusterConditions:
+    - type: ManagedClusterConditionAvailable
+      status: "True"
+  clusterSelector:
+    matchExpressions:
+    - key: environment
+      operator: In
+      values:
+      - nonprod
+      - prod
