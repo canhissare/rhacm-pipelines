@@ -6,5 +6,6 @@ metadata:
   name: nodejs-app-latest
   namespace: nodejs-acm
 spec:
-  type: GitHub
+  sourceNamespaces: nodejs-acm
+  type: Git
   pathname: https://github.com/canhissare/rhacm-pipelines.git
