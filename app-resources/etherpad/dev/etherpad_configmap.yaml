@@ -77,7 +77,7 @@ data:
       /*
       * Name your instance!
       */
-      "title": "OpenTLC Etherpad",
+      "title": "OpenTLC Etherpad ACM",
 
       /*
       * favicon default name
