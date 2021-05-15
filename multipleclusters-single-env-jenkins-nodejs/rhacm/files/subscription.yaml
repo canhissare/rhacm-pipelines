@@ -7,7 +7,6 @@ metadata:
   namespace: nodejs-acm
   labels:
     app: nodejs-acm
-    teste: canhissare
   annotations:
     apps.open-cluster-management.io/github-path: app-resources/nodejs
 spec:

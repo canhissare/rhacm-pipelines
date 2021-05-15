@@ -5,6 +5,8 @@ kind: Channel
 metadata:
   name: nodejs-app-latest
   namespace: nodejs-acm
+  annotations:
+    apps.open-cluster-management.io/reconcile-rate: high
 spec:
   sourceNamespaces:
     - nodejs-acm
