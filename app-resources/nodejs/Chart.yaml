@@ -5,6 +5,7 @@ keywords:
 - quickstart
 - nodejs
 - test
+appVersion: "0.1"
 home: https://access.redhat.com
 sources:
 - https://github.com/canhissare/nodejs-ex
