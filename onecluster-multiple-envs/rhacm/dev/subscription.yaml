@@ -7,6 +7,7 @@ metadata:
   namespace: etherpad-acm-dev
   labels:
     app: etherpad-acm-dev
+    version: 0.0.2
   annotations:
     apps.open-cluster-management.io/github-path: app-resources/etherpad/dev
 spec:
