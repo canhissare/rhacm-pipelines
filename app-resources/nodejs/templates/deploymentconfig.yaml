@@ -3,7 +3,7 @@ apiVersion: apps.openshift.io/v1
 metadata:
   name: {{ .Values.name | quote }}
   annotations:
-    description: Defines how to deploy the application server
+    description: Defines how to deploy the application server v2
     template.alpha.openshift.io/wait-for-ready: 'true'
 spec:
   strategy:
