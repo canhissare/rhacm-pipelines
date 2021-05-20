@@ -26,6 +26,8 @@ spec:
       name: {{ .Values.name | quote }}
       labels:
         name: {{ .Values.name | quote }}
+      annotations:
+        version: v4
     spec:
       containers:
       - name: nodejs-example
