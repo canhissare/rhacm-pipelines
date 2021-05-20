@@ -214,7 +214,7 @@ data:
       /*
       * The default text of a pad
       */
-      "defaultPadText" : "Welcome to the OpenTLC Etherpad on ACM!\n\nENVIRONMENT=DEV!\n",
+      "defaultPadText" : "Welcome to the OpenTLC Etherpad on ACM v6!\n\nENVIRONMENT=DEV!\n",
 
       /*
       * Default Pad behavior.
