@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   labels:
     app: etherpad
-    version: 0.2
   name: etherpad
 spec:
   replicas: 1
@@ -19,6 +18,8 @@ spec:
     metadata:
       labels:
         app: etherpad
+      annotations:
+        version: v4
     spec:
       containers:
       - env:
