@@ -19,7 +19,7 @@ spec:
       labels:
         app: etherpad
       annotations:
-        version: v4
+        version: v7
     spec:
       containers:
       - env:
